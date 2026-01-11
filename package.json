@@ -1,7 +1,7 @@
 {
   "name": "brick-cli",
   "version": "0.1.0",
-  "description": "A framework-agnostic CLI tool for managing reusable code templates",
+  "description": "A framework-agnostic CLI tool for managing reusable code templates. Save, manage, and apply code snippets across projects.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -21,10 +21,22 @@
     "code-generator",
     "scaffolding",
     "boilerplate",
-    "brick"
+    "brick",
+    "snippet",
+    "reusable",
+    "code-templates",
+    "developer-tools"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeebbii/code-brick.git"
+  },
+  "homepage": "https://github.com/seeebbii/code-brick#readme",
+  "bugs": {
+    "url": "https://github.com/seeebbii/code-brick/issues"
+  },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
     "commander": "^12.0.0",
