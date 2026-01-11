@@ -18,16 +18,16 @@ Every developer has faced this workflow:
 
 ```bash
 # Install globally via npm
-npm install -g brick-cli
+npm install -g code-brick
 
 # Or with yarn
-yarn global add brick-cli
+yarn global add code-brick
 
 # Or with pnpm
-pnpm add -g brick-cli
+pnpm add -g code-brick
 
 # Or with bun
-bun add -g brick-cli
+bun add -g code-brick
 ```
 
 After installation, the `brick` command will be available globally:

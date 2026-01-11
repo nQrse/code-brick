@@ -1,5 +1,5 @@
 {
-  "name": "brick-cli",
+  "name": "code-brick",
   "version": "0.1.0",
   "description": "A framework-agnostic CLI tool for managing reusable code templates. Save, manage, and apply code snippets across projects.",
   "type": "module",
@@ -27,7 +27,7 @@
     "code-templates",
     "developer-tools"
   ],
-  "author": "",
+  "author": "seeebbii",
   "license": "MIT",
   "repository": {
     "type": "git",
