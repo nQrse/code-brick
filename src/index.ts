@@ -12,6 +12,7 @@ import { addCommand } from "./commands/add.js";
 import { removeFileCommand } from "./commands/remove-file.js";
 import { deleteCommand } from "./commands/delete.js";
 import { sizeCommand } from "./commands/size.js";
+import { cleanCommand } from "./commands/clean.js";
 
 const program = new Command();
 
@@ -101,5 +102,14 @@ program
     .command("size [name]")
     .description("Show template size(s) - all templates if no name provided")
     .action(sizeCommand);
+
+// Clean command - remove local imports
+program
+    .command("clean <name>")
+    .description("Remove local/project-specific imports from template files")
+    .option("-p, --pattern <regex>", "Custom regex pattern to match imports to remove")
+    .option("--dry-run", "Preview changes without modifying files")
+    .option("--no-keep-external", "Also remove external package imports")
+    .action(cleanCommand);
 
 program.parse();
