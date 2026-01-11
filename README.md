@@ -262,20 +262,20 @@ Brick **automatically ignores** common dependency directories, build outputs, an
 
 ### Ignored Directories
 
-| Framework     | Automatically Ignored                                           |
-| ------------- | --------------------------------------------------------------- |
-| **Node.js**   | `node_modules/`, `.npm/`, `.yarn/`, `.pnpm-store/`              |
+| Framework     | Automatically Ignored                                               |
+| ------------- | ------------------------------------------------------------------- |
+| **Node.js**   | `node_modules/`, `.npm/`, `.yarn/`, `.pnpm-store/`                  |
 | **Python**    | `__pycache__/`, `.venv/`, `venv/`, `.pytest_cache/`, `.mypy_cache/` |
-| **Flutter**   | `.dart_tool/`, `.pub-cache/`, `build/`, `.flutter-plugins*`     |
-| **Rust**      | `target/`                                                       |
-| **Go**        | `vendor/`                                                       |
-| **Java**      | `.gradle/`, `.idea/`, `out/`, `build/`                          |
-| **iOS**       | `Pods/`, `.symlinks/`, `DerivedData/`                           |
-| **.NET**      | `bin/`, `obj/`, `packages/`                                     |
-| **Build**     | `dist/`, `build/`, `.next/`, `.nuxt/`, `.output/`, `.vercel/`   |
-| **Cache**     | `.cache/`, `.temp/`, `.turbo/`, `coverage/`                     |
-| **VCS**       | `.git/`, `.svn/`, `.hg/`                                        |
-| **IDE**       | `.idea/`, `.vscode/` (settings, not launch configs)             |
+| **Flutter**   | `.dart_tool/`, `.pub-cache/`, `build/`, `.flutter-plugins*`         |
+| **Rust**      | `target/`                                                           |
+| **Go**        | `vendor/`                                                           |
+| **Java**      | `.gradle/`, `.idea/`, `out/`, `build/`                              |
+| **iOS**       | `Pods/`, `.symlinks/`, `DerivedData/`                               |
+| **.NET**      | `bin/`, `obj/`, `packages/`                                         |
+| **Build**     | `dist/`, `build/`, `.next/`, `.nuxt/`, `.output/`, `.vercel/`       |
+| **Cache**     | `.cache/`, `.temp/`, `.turbo/`, `coverage/`                         |
+| **VCS**       | `.git/`, `.svn/`, `.hg/`                                            |
+| **IDE**       | `.idea/`, `.vscode/` (settings, not launch configs)                 |
 
 ### Ignored Files
 
