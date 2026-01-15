@@ -13,6 +13,8 @@ import { removeFileCommand } from "./commands/remove-file.js";
 import { deleteCommand } from "./commands/delete.js";
 import { sizeCommand } from "./commands/size.js";
 import { cleanCommand } from "./commands/clean.js";
+import { exportCommand } from "./commands/export.js";
+import { importCommand } from "./commands/import.js";
 
 const program = new Command();
 
@@ -22,7 +24,7 @@ program
         pc.cyan("🧱 CodeBrick") +
         " - A framework-agnostic CLI for managing reusable code templates"
     )
-    .version("0.1.0");
+    .version("0.2.0");
 
 // Initialize CodeBrick
 program
@@ -111,5 +113,20 @@ program
     .option("--dry-run", "Preview changes without modifying files")
     .option("--no-keep-external", "Also remove external package imports")
     .action(cleanCommand);
+
+// Export command - create shareable .brick file
+program
+    .command("export <name>")
+    .description("Export a template as a shareable .brick file")
+    .option("-o, --output <path>", "Output file path (default: ./<name>.brick)")
+    .action(exportCommand);
+
+// Import command - import from .brick file
+program
+    .command("import <file>")
+    .description("Import a template from a .brick file")
+    .option("-n, --name <name>", "Custom name for the imported template")
+    .option("-f, --force", "Overwrite existing template without prompting")
+    .action(importCommand);
 
 program.parse();

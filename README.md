@@ -312,6 +312,77 @@ import 'package:go_router/go_router.dart';
 
 The command auto-detects the project name from `pubspec.yaml`, `package.json`, or `pyproject.toml`.
 
+### `brick export <name|index>`
+
+Export a template as a shareable `.brick` file. Perfect for sharing templates with teammates or between machines.
+
+```bash
+# Export to current directory
+brick export nestjs-auth
+
+# By index
+brick export 0
+
+# Specify output path
+brick export 0 --output ~/Desktop/my-auth.brick
+```
+
+**Options:**
+
+- `-o, --output <path>` — Output file path (default: `./<name>.brick`)
+
+**Example output:**
+
+```
+┌ 🧱 Exporting template
+│  ● Template: nestjs-auth
+│  ● Files: 5 files
+│  ● Output: /Users/you/nestjs-auth.brick
+│
+│  ◇ Export complete!
+│    Size: 12.34 KB
+│
+│  Share this file and import with:
+│    brick import nestjs-auth.brick
+└
+```
+
+### `brick import <file>`
+
+Import a template from a `.brick` file.
+
+```bash
+# Import from .brick file
+brick import nestjs-auth.brick
+
+# Import with custom name
+brick import nestjs-auth.brick --name my-auth-v2
+
+# Force overwrite existing template
+brick import nestjs-auth.brick --force
+```
+
+**Options:**
+
+- `-n, --name <name>` — Custom name for the imported template
+- `-f, --force` — Overwrite existing template without prompting
+
+**Example output:**
+
+```
+┌ 🧱 Importing template
+│  ● File: /Users/you/nestjs-auth.brick
+│  ● Template: nestjs-auth
+│  ● Description: JWT authentication module
+│  ● Files: 5 files
+│
+│  ◇ Import complete!
+│
+│  View structure: brick tree nestjs-auth
+│  Apply template: brick apply nestjs-auth
+└
+```
+
 ## Smart Ignore System
 
 Brick **automatically ignores** common dependency directories, build outputs, and generated files across all frameworks. This keeps your templates clean and portable.
@@ -447,6 +518,20 @@ brick apply 2 ./lib
 brick size 0
 brick clean 2          # Remove local imports
 brick delete 1 --force
+```
+
+### Share Templates with Your Team
+
+```bash
+# Export a template to share
+brick export nestjs-auth
+# Creates: nestjs-auth.brick (shareable file)
+
+# Send the .brick file to your teammate, then they run:
+brick import nestjs-auth.brick
+
+# Or import with a custom name
+brick import nestjs-auth.brick --name company-auth
 ```
 
 ## Contributing

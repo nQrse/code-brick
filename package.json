@@ -1,6 +1,6 @@
 {
   "name": "code-brick",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A framework-agnostic CLI tool for managing reusable code templates. Save, manage, and apply code snippets across projects.",
   "type": "module",
   "main": "dist/index.js",
@@ -39,14 +39,18 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
+    "archiver": "^7.0.1",
     "commander": "^12.0.0",
+    "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
     "picocolors": "^1.0.0",
-    "fast-glob": "^3.3.2"
+    "tar": "^7.5.2"
   },
   "devDependencies": {
+    "@types/archiver": "^7.0.0",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.11.0",
+    "@types/tar": "^6.1.13",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
